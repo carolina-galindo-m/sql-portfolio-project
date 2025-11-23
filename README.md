@@ -42,10 +42,18 @@ mysql -u root -p galaxy_entertainment < SQL_Scripts/03_business_queries.sql
 
 ## 📁 File Structure
 galaxy-entertainment/                                                                                                                                                        
-├── SQL_Scripts/                # All executable SQL files                                                                                                                   
-├── ERD_Diagrams/               # Database architecture visuals                                                                                                              
-├── Project_Documentation.pdf   # Comprehensive design process                                                                                                               
-└── README.md                   # This file                                                                                                                                  
+│                                                                                                                                                                            
+├── 📄 README.md                                                                                                                                                             
+├── 📊 ERD_Diagrams/                                                                                                                                                         
+│   ├── galaxy_enterdiagram.png                                                                                                                                              
+│   └── galaxy_erd_logical_model.png                                                                                                                                         
+│                                                                                                                                                                            
+├── 🗃️ SQL_Scripts/                                                                                                                                                          
+│   ├── 01_database_creation.sql                                                                                                                                             
+│   ├── 02_sample_data_insertion.sql                                                                                                                                         
+│   └── 03_business_queries.sql                                                                                                                                              
+│                                                                                                                                                                            
+└── 📋 Project_Documentation.pdf                                                                                                                                             
 
 ## 🛠️ Technologies Used
 - **MySQL** - Database Management System
